@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 5px; 
+        }
+        .nav1,.gc{
+            font-size: 28px;
+            font-family: "Josefin Slab", serif;
+            color: rgb(76, 72, 72);
+            text-decoration: none;
+        }
+        .nav2{
+            display: flex;
+            gap: 15px;
+            font-size: 24px;
+        }
+        .about{
+            text-decoration: none;
+            color: rgb(76, 72, 72);
+            margin-right: 10px;
+        }
+        .menunav{
+            text-decoration: none;
+            color: rgb(76, 72, 72);
+            margin-right: 10px;
+        }
+        .contactnav{
+            text-decoration: none;
+            color: rgb(76, 72, 72);
+            margin-right: 25px;
+        }
+        .home{ 
+            width: 100%;
+            height: 90vh;
+            display: flex;
+            background-image: url(ct1.jpg);
+            background-position: bottom;
+            margin-bottom: 4vh;
+        }
+        .le{
+            display: flex;
+            align-items: flex-end;
+            margin-left: 15px;
+            color: rgb(155, 146, 146);
+            font-size: 52px;
+            font-family: "Playfair Display";
+            letter-spacing: 5px;
+        }
+        .aboutct{ 
+            width: 85%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+        }
+      .aboutct1{
+        margin-left: 150px;
+        display: flex;
+        justify-content: center;
+      }
+      .ct2{
+        height: 90vh;
+      }
+      .aboutct2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .act1{
+        font-family: "Playfair Display";
+        letter-spacing: 5px;
+        font-weight: 900;
+      }
+      .act1{
+        font-family: "Playfair Display";
+        letter-spacing: 5px;
+        font-weight: 900;
+      }
+      .act3{
+        margin-right: 40px;
+        margin-left: 40px;
+        text-align: justify;
+        line-height: 24px;
+        font-family: "Junge", cursive;
+        font-size: 16px;
+        width: 80%;
+      }
+      .act4{
+        margin-right: 40px;
+        margin-left: 40px;
+        text-align: justify;
+        line-height: 24px;
+        font-family: "Junge", cursive;
+        font-size: 16px;
+        color: rgb(105, 97, 97);
+        width: 80%;
+      }
+      .menu{ 
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        padding-top: 2.5vh;
+      }
+      .menu1{
+        display: flex;
+        flex-direction: column;
+         
+      }
+      .menu2{
+        display: flex;
+        align-items: center;
+
+      }
+
+      .ct3{
+        height: 85vh;
+      }
+
+      .ourmenu{
+        align-self: center;
+        margin-top: 45px;
+      }
+
+      .m1,.m2,.m3,.m4,.m5{
+        align-items: flex-start;
+        padding-left: 60px;
+        font-family: "Playfair Display";
+        margin-bottom: 1px;
+        /* letter-spacing: 5px; */
+      }
+      .md1,.md2,.md3,.md4,.md5{
+        align-items: flex-start;
+        padding-left: 60px;
+        padding-right: 20px;
+        font-family: "Times New Roman", Georgia, serif; 
+      }
+
+      .hr1{
+        border: 1px solid rgba(158, 174, 179, 0.128);
+      }
+      .hr2{
+        border: 1px solid rgba(158, 174, 179, 0.128);
+      }
+
+      .contact{ 
+        height: 88vh;
+        display: flex;
+        flex-direction: column;
+        margin-left: 45px;
+      }
+
+      .c1{
+        font-family: "Playfair Display";
+      }
+      .c2,.c4{
+        font-family: "Times New Roman", Georgia, serif;
+      }
+
+      .c3{
+        color: #5e5858;
+      }
+      .name{
+        border: none;
+        border-bottom: 1px solid rgba(141, 144, 149, 0.249);
+        width: 90%;
+        height: 7.5vh;
+        margin-top: 15px;
+      }
+      .nop{
+        border: none;
+        border-bottom: 1px solid rgba(141, 144, 149, 0.249);
+        width: 90%;
+        height: 7.5vh;
+        margin-top: 15px;
+      }
+      .msr{ 
+        border: none;
+        border-bottom: 1px solid rgba(141, 144, 149, 0.249);
+        width: 90%;
+        height: 7.5vh;
+        margin-top: 15px;
+      }
+      .dt{ 
+        border: none;
+        border-bottom: 1px solid rgba(141, 144, 149, 0.249);
+        width: 90%;
+        height: 7.5vh;
+        margin-top: 15px;
+      }
+      .sm{
+        margin-top: 16px;
+        padding: 20px;
+        font-size: 16px;
+      }
+
+      .abhi{
+        text-align: center;
+        font-size: 15px;
+      }
+      .ab{
+        text-decoration: none;
+        font-size: 18px;
+      }
+      .ab:link{
+        color: red;
+    }
+    .ab:visited{
+        color: rgb(149, 4, 253);
+      }
+
+      .mimg{
+        width: 20px;
+        height: 20px;
+      }
+
+      .nav3{
+        display: none;
+      }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box">
+
+
+        <div class="nav">
+            <div class="nav1">
+                <a href="#home" class="gc">Gourmet au Catering</a>
+            </div>
+            <div class="nav2">
+                <a href="#about"  class="about">About</a>
+                <a href="#menu" class="menunav">Menu</a>
+                <a href="#contact" class="contactnav">contact</a>
+            </div>
+            <div class="nav3">
+                <a href="" class="aimg"><img src="menu.png" alt="" class="mimg"></a>
+                <div class="nav31">
+                <a href="#about"  class="a1">About</a>
+                <br>
+                <a href="#menu" class="a2">Menu</a>
+                <br>
+                <a href="#contact" class="a3">contact</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="home" id="home">
+            <h1 class="le">Le Catering</h1>
+        </div>
+         
+
+        <div class="aboutct" id="about">
+            <div class="aboutct1">
+                <img src="ct2.jpg" alt="" class="ct2">
+            </div>
+            <div class="aboutct2">
+                <h1 class="act1">About Catering</h1>
+                <h4 class="act2">Tradition since 1889</h4>
+                <p class="act3">The Catering was founded in blabla by 
+                    Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore
+                    eu fugiat nulla pariatur.We only use  seasonal  ingredients.</p>
+                <p class="act4">Excepteur sint occaecat cupidatat non proident, 
+                    sunt in culpa qui officia deserunt mollit anim id est laborum 
+                    consectetur adipiscing elit, sed do eiusmod temporincididunt 
+                    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                     nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+        </div>
+        <hr class="hr1">
+
+
+        <div class="menu" id="menu">
+            <div class="menu1">
+                <h1 class="ourmenu">Our Menu</h1>
+
+                <h4 class="m1">Bread Basket</h4>
+                <p class="md1">Assortment of fresh baked fruit breads and muffins 5.50</p>
+                <br>
+                <h4 class="m2">Honey Almond Granola with Fruits</h4>
+                <p class="md2">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p>
+                <br>
+
+                <h4 class="m3">Belgian Waffle</h4>
+                <p class="md3">Vanilla flavored batter with malted flour 7.50</p>
+                <br>
+
+                <h4 class="m4">Scrambled eggs</h4>
+                <p class="md4">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p>
+                <br>
+
+                <h4 class="m5">Blueberry Pancakes</h4>
+                <p class="md5">With syrup, butter and lots of berries 8.50</p>
+                <br> 
+            </div>
+            <div class="menu2">
+                <img src="ct3.jpg" alt="" class="ct3">
+            </div>
+        </div>
+        <hr class="hr2">
+
+        <div class="contact" id="contact"> 
+            <h1 class="c1">Contact</h1>
+            <p class="c2">We offer full-service catering for any event, large or small. 
+            We understand your needs and we will cater the food to satisfy 
+            the biggerst criteria of them all, both look and taste. 
+            Do not hesitate to contact us.
+            </p>
+
+            <h4 class="c3">Catering Service, Road no:1, kphb, Hyd</h4>
+            <p class="c4">You can also contact us by phone 9959768307 or email lec@catering.com,
+                or you can send us a message here:
+            </p>
+
+            <form action="" method="post">
+                <input type="text" placeholder="Name"   class="name">
+                <input type="number" placeholder="Enter No of People"   class="nop">
+                <input type="datetime-local" placeholder="Select Upcoming Date" value="2024-08-19T00:00" min="2024-08-19T00:00" max="2025-08-19T00:00"  class="dt">
+                <input type="text" placeholder="Message\ Special Reqirments"   class="msr">
+                <br>
+                <button type="submit" class="sm">Send Message</button>
+                <br>
+                <br>
+            </form>
+            <p class="abhi">Powered by <a class="ab" href="https://www.linkedin.com/in/abhinavsaivannam/">Abhinav Sai</a></p>
+        </div>
+
+         
+        
+        
+    </div>
+
+</body>
+</html>
